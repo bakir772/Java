@@ -8,7 +8,7 @@ public class UniqueNumbers {
         System.out.print("Enter your numbers: ");
         String input = scanner.nextLine();
         
-        // تقسيم المدخلات بناءً على المسافات (شبيه بـ split() في Python)
+        // تقسيم المدخلات بناءً على المسافات 
         String[] nums = input.split("\\s+");
         
         ArrayList<String> unique = new ArrayList<>();
